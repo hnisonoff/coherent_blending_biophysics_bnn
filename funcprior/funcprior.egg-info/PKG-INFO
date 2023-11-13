@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: funcprior
+Version: 0.0.1a0
+Summary: TODO
+Author: Hunter Nisonoff
+Author-email: hunter_nisonoff@berkeley.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Code for Augmenting Neural Networks with Priors on Function Values
+
+The scripts to reproduce the experiments in the paper are:
+1) bin/gb1.py
+1) bin/gfp.py
+1) bin/solubility.py
+
+
+Dependencies:
+- pytorch
+- tensorflow
+- deepchem
+- PyTDC
+- gpytorch
+- seaborn
+- numpy 
+- pandas
